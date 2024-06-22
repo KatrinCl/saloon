@@ -1,6 +1,6 @@
 import React from 'react';
 import './../Styles/ExploreMassage.css';
-import { massage_list } from '../../public/assets';
+import { massage_list } from './../../public/assets.js';
 
 const ExploreMassage = ({ massage, setMassage }) => {
 

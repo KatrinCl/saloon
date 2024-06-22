@@ -1,7 +1,7 @@
 .certificates{
     width: 100%;
     min-height: 100vh;
-    background: url(./cert.jpg) no-repeat center center;
+    background: url(/cert.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
 }

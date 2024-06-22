@@ -1,6 +1,6 @@
 import React from 'react'
 import MassageItem from './MassageItem'
-import { price_list } from '../../public/assets'
+import { price_list } from './../../public/assets.js'
 
 const MassageDisplay = ({massage}) => {
   return (

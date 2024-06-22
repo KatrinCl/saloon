@@ -1,7 +1,7 @@
 .contacts{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(72, 44, 45, 0.5),rgba(187, 172, 173, 0)),url('./ground.jpg');
+    background: linear-gradient(rgba(72, 44, 45, 0.5),rgba(187, 172, 173, 0)),url('/ground.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

@@ -1,7 +1,7 @@
 .about{
     width: 100%;
     min-height: 100vh;
-    background: url('./spa.jpeg') no-repeat center center;
+    background: url('/spa.jpeg') no-repeat center center;
     background-size: cover;
 }
 
