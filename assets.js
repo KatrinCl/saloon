@@ -1,14 +1,14 @@
-import master_1 from '/master_1.jpg'
-import master_2 from '/master_2.png'
-import master_3 from '/master_3.png'
-import master_4 from '/master_4.png'
+import master_1 from './master_1.jpg'
+import master_2 from './master_2.png'
+import master_3 from './master_3.png'
+import master_4 from './master_4.png'
 
-import massage_1 from '/massage_1.jpeg'
-import massage_2 from '/massage_2.jpeg'
-import massage_3 from '/massage_3.png'
-import massage_4 from '/massage_4.jpg'
-import massage_5 from '/massage_5.jpg'
-import massage_6 from '/massage_6.png'
+import massage_1 from './massage_1.jpeg'
+import massage_2 from './massage_2.jpeg'
+import massage_3 from './massage_3.png'
+import massage_4 from './massage_4.jpg'
+import massage_5 from './massage_5.jpg'
+import massage_6 from './massage_6.png'
 
 
 
