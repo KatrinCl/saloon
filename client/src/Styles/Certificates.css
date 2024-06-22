@@ -1,0 +1,97 @@
+.certificates{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./cert.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.cert{
+    position: absolute;
+    margin-top: 15%;
+    color: #ffffffe5;
+}
+
+.cert h1{
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70px;
+    margin-left: 40%;
+}
+
+.cert hr{
+    margin-top: 5%;
+    width: 110%;
+    border: 1px solid #ce9309;
+}
+
+.cert p{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.cert button {
+    width: 240px;
+    height: 40px;
+    border: 1px solid #ce9309;
+    border-radius: 75px;
+    background: transparent;
+    color: #ce9309;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 39%;
+    margin-top: 10%;
+}
+
+.cert button:hover{
+    color: #f6cf74;
+    transition: 0.5s;
+}
+
+@media (max-width: 830px) {
+    .cert{
+        margin-top: 25%;
+    }
+    .cert h1{
+        font-size: 20px;
+        margin-left: 20%;
+    }
+    .cert hr{
+        margin-top: 2%;
+        width: 75%;
+    }
+    .cert p{
+        margin-left: 15%;
+    }
+    .cert button {
+        width: 180px;
+        margin-left: 26%;
+        margin-top: 8%;
+    }    
+}
+
+@media (max-width: 650px) {
+    .cert{
+        margin-top: 30%;
+    }
+    .cert h1{
+        font-size: 18px;
+        margin-left: 15%;
+    }
+    .cert hr{
+        margin-top: 2%;
+        width: 68%;
+    }
+    .cert p{
+        margin-left: 10%;
+    }
+    .cert button {
+        margin-left: 21%;
+    }    }
+

@@ -1,0 +1,82 @@
+.massage {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(72, 44, 45, 0.5),rgba(187, 172, 173, 0)),url('./ground.jpg') no-repeat;
+    background-size: cover;
+}
+
+.massage-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.massage-description {
+    position: absolute;
+    margin-top: 15%;
+}
+
+.massage-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 50%;
+    text-align: start;
+}
+
+.massage-text h2 {
+    font-size: 28px;
+    color: #ffffffe5;
+    font-weight: 550;
+    text-align: start;
+}
+
+.massage-text p {
+    color: #ffffffa5;
+}
+
+.massage-description hr {
+    margin-top: 5%;
+    width: 160%;
+    border: 1px solid #ce9309;
+}
+
+@media (max-width: 830px) {
+    .massage-description {
+        margin-top: 23%;
+    }
+    .massage-text {
+        gap: 1px;
+        margin-left: 20%;
+    }    
+    .massage-text h2 {
+        font-size: 20px;
+    }
+    .massage-description hr {
+        width: 120%;
+    }
+}
+
+@media (max-width: 650px) {
+    .massage-description {
+        margin-top: 25%;
+    }
+    .massage-text {
+        margin-left: 12%;
+    }    
+    .massage-text h2 {
+        font-size: 18px;
+    }
+    .massage-text p {
+        font-size: 14px;
+    }
+    .massage-description hr {
+        width: 170%;
+    }
+    .massage-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: url('./spa.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.about-left{
+    position: absolute;
+    margin-top: 15%;
+}
+
+.about-left h1{
+    width: 350px;
+    margin-left: 40%;
+    font-size: 37px;
+    color: #fff;
+}
+
+.about-left hr{
+    position: absolute;
+    width: 150%;
+    border: 1px solid #ce9309;
+    margin-top: 10px;
+}
+
+.about-left p{
+    position: absolute;
+    color: #ffffffa5;
+    margin-left: 45%;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.about-right{
+    position: absolute;
+    color: #fff;
+    margin-top: 15%;
+    margin-left: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-right p{
+    font-size: 18px;
+}
+
+@media (max-width: 830px) {
+    .about-left {
+        margin-top: 30%;
+    }
+    .about-left h1 {
+        font-size: 20px;
+        margin-left: 23%;
+    }
+    .about-left p {
+        margin-left: 23%;
+    }
+    .about-left hr {
+        width: 110%;
+    }
+
+    .about-right {
+        margin-top: 22%;
+        margin-left: 65%;
+    }
+    .about-right p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-left {
+        margin-top: 35%;
+    }
+    .about-left h1 {
+        font-size: 18px;
+        margin-left: 18%;
+    }
+    .about-left p {
+        margin-left: 18%;
+    }
+    .about-left hr {
+        width: 95%;
+    }
+    .about-right {
+        margin-top: 28%;
+        margin-left: 68%;
+    }
+    .about-right p{
+        font-size: 12px;
+    }
+}

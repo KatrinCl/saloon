@@ -1,0 +1,81 @@
+.order-call {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.order {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 30%;
+    height: 45%;
+}
+
+.order span {
+    color: rgba(0, 0, 0, 0.885);
+    margin-left: 60%;
+}
+
+.close-button1 {
+    border: none;
+    background: none;
+    width: 10px;
+    position: absolute;
+    color: #1e1b1b94;
+    margin-left: 90%;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.order input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-text {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order h2 {
+    color: #ce9309;
+}
+
+.btn-order {
+    width: 150px;
+    height: 70px;
+    outline: none;
+    border: 1px solid #ce9309;
+    border-radius: 75px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #ce9309;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn-order:hover {
+    background: #f6cf74;
+    transition: 0.5s;
+}
