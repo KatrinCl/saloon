@@ -60,6 +60,24 @@
     }
 }
 
+@media (max-width: 650px) {
+    .hero-offer {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+
+}
+
+
 
 
 

@@ -125,19 +125,6 @@
     width: 40px;
 }
 
-@media (max-width: 1000px) {
-    .nav-left img {
-        width: 100px;
-    }
-    nav ul li {
-        margin: 10px 15px;
-    }
-    nav h1 {
-        visibility: hidden;
-    }
-}
-
-
 @media (max-width: 840px) {
     nav {
         padding: 15px 0;
