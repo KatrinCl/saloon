@@ -23,23 +23,23 @@
 }
 
 .contacts-container h2{
-    margin-left: 110%;
+    margin-left: 50px;
     width: 100%;
 }
 
 .contacts-container hr{
     border: 1px solid #ce9309;
     margin-top: 5%;
-    width: 210%;
+    width: 410px;
 }
 
 .conts{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: 110%;
     margin-top: 5%;
     width: 100%;
+    margin-left: 150px;
 }
 
 .conts p{
@@ -71,11 +71,11 @@
         margin-top: 70%;
     }
     .contacts-container h2{
-        margin-left: 70%;
+        margin-left: 20px;
     }    
     .conts{
         gap: 20px;
-        margin-left: 70%;
+        margin-left: 130px;
         margin-top: 5%;
         width: 100%;
     }        
@@ -100,14 +100,17 @@
         margin-top: 30%;
     }
     .contacts-container h2{
-        margin-left: 40%;
+        margin-left: 20px;
     }    
     .conts{
         gap: 20px;
-        margin-left: 40%;
+        margin-left: 50px;
         margin-top: 5%;
         width: 100%;
-    }        
+    }     
+    .contacts-container hr{
+        width: 250px;
+    }   
     .map-responsive{
         margin-top: 40%;
         margin-left: 50%;
@@ -119,5 +122,4 @@
     .footer-list{
         margin-top: auto;
     }
-    
 }

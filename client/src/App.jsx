@@ -13,18 +13,18 @@ import Programs from './Components/Programs'
 function App() {
 
   return (
-    <>
-    <Navbar />
-    <Hero />
-    <Programs />
-    <About />
-    <Massage />
-    <Certificates />
-    <Abonements />
-    <Masters />
-    <Contacts />
-    </>
-  )
+    <div className='app'>
+      <Navbar />
+      <Hero />
+      <Programs />
+      <About />
+      <Massage />
+      <Certificates />
+      <Abonements />
+      <Masters />
+      <Contacts />
+      </div>
+      )
 }
 
-export default App
+      export default App

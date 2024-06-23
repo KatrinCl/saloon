@@ -81,9 +81,18 @@
     transition: 0.5s;
   }
 
+  @media (max-width: 840px) {
+    .footer-text h1{
+        font-size: 30px;
+    }
+  }
+
   @media (max-width: 650px) {  
     .footer-right li{
         font-size: 14px;
         margin: 5px 20px;
+    }
+    .footer-text h1{
+        font-size: 20px;
     }
   }
