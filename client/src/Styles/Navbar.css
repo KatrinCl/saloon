@@ -126,6 +126,22 @@
 }
 
 @media (max-width: 1000px) {
+    .nav-left img {
+        width: 100px;
+    }
+    nav ul li {
+        margin: 10px 15px;
+    }
+    nav h1 {
+        visibility: hidden;
+    }
+}
+
+
+@media (max-width: 840px) {
+    nav {
+        padding: 15px 0;
+    }
     .nav-top {
         flex-direction: row;
         align-items: center;
@@ -141,7 +157,7 @@
     }
     .nav-bottom ul {
         position: fixed;
-        top: 17.5%;
+        top: 19.5%;
         right: -200px;
         bottom: 0;
         width: 200px;
@@ -149,7 +165,7 @@
         transition: right 0.5s;
         flex-direction: column;
         align-items: center;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     .nav-bottom ul li {
         display: block;
@@ -164,11 +180,16 @@
     .call-cont {
         display: block;
     }
+    .nav-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        visibility: visible;
+    }
 }
 
 @media (max-width: 650px) {
     .nav-left {
-        margin-left: 5%;
+        margin-left: 8%;
     }
     .nav-left h1 {
         font-size: 20px;
@@ -176,7 +197,7 @@
     }
     .nav-left p {
         font-size: 12px;
-        margin-left: 0;
+        margin-left: 10px;
     }
     .nav-left img {
         width: 80px;
@@ -193,7 +214,7 @@
         height: 30px;
     }
     .nav-bottom ul {
-        top: 16%;
+        top: 18%;
         right: -250px;
     }
     .navbar.active .nav-bottom ul {

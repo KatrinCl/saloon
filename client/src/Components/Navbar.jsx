@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`navbar ${isSticky ? 'sticky' : ''} ${isMenuOpen ? 'active' : ''}`}>
+    <nav className={`navbar ${isSticky ? 'sticky' : ''} ${isMenuOpen ? 'active' : ''}`}>
       <div className="nav-top">
         <div className="nav-left">
           <img src="./logo.png" alt="Logo" />
@@ -53,7 +53,7 @@ const Navbar = () => {
         </ul>
       </div>
       {isOrderCallOpen && <OrderCall onClose={toggleOrderCall} />}
-    </div>
+    </nav>
   );
 };
 
