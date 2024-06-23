@@ -179,12 +179,14 @@
         margin-left: 8%;
     }
     .nav-left h1 {
-        font-size: 20px;
-        margin-left: 0;
+        /* font-size: 20px;
+        margin-left: 0; */
+        visibility: hidden;
     }
     .nav-left p {
-        font-size: 12px;
-        margin-left: 10px;
+        /* font-size: 12px;
+        margin-left: 10px; */
+        visibility: hidden;
     }
     .nav-left img {
         width: 80px;
