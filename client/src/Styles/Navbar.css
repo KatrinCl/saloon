@@ -167,21 +167,36 @@
 }
 
 @media (max-width: 650px) {
+    .nav-left {
+        margin-left: 5%;
+    }
     .nav-left h1 {
         font-size: 20px;
+        margin-left: 0;
     }
     .nav-left p {
         font-size: 12px;
+        margin-left: 0;
     }
     .nav-left img {
         width: 80px;
         height: 70px;
     }
     .call-cont {
-        width: 70px;
+        width: 50px;
+        height: 50px;
         margin-right: 20px;
+        margin-top: 20px;
+    }
+    .call-cont img {
+        width: 30px;
+        height: 30px;
     }
     .nav-bottom ul {
         top: 16%;
+        right: -250px;
+    }
+    .navbar.active .nav-bottom ul {
+        right: 0;
     }
 }
