@@ -54,7 +54,7 @@
     transition: 0.5s;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 840px) {
     .cert{
         margin-top: 25%;
     }
@@ -76,7 +76,7 @@
     }    
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
     .cert{
         margin-top: 30%;
     }

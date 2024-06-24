@@ -54,7 +54,7 @@
     margin-left: 90%;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 840px) {
     .programs h1 {
         margin-top: 20%;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
     .programs h1 {
         margin-top: 25%;
     }
@@ -76,6 +76,6 @@
         width: 70%;
     }
     .programs-form {
-        margin-top: 40%;
+        margin-top: 37%;
     }
 }

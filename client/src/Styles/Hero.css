@@ -53,17 +53,29 @@
     transition: 0.5s;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 840px) {
     .hero-offer {
         display: flex;
         flex-direction: column;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
     .hero-offer {
         display: flex;
         flex-direction: column;
+    }
+    .hero-offer button{
+        font-size: 12px;
+        margin: 0px 15px;
+        margin-top: 10%;
+    }
+    .hero-content{
+        gap: 5px;
+    }
+    
+    .hero-text {
+        margin-top: 10%;
     }
     .hero-text h1 {
         font-size: 30px;

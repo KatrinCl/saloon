@@ -19,8 +19,8 @@
 .master-text{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-left: 50%;
+    width: 440px;
+    margin-left: 26%;
     text-align: start;
 }
 
@@ -37,32 +37,34 @@
 
 .masters-description hr{
     margin-top: 5%;
-    width: 160%;
+    width: 600px;
     border: 1px solid #ce9309;
 }
 
-@media (max-width: 830px) {
-    .masters-description {
-        margin-top: 23%;
-    }
-    .master-text {
-        gap: 1px;
-        margin-left: 20%;
-    }    
-    .master-text h2 {
-        font-size: 20px;
-    }
-    .masters-description hr {
-        width: 120%;
-    }
-}
-
-@media (max-width: 650px) {
+@media (max-width: 840px) {
     .masters-description {
         margin-top: 25%;
     }
     .master-text {
-        margin-left: 12%;
+        margin-left: 17%;
+    }    
+    .master-text h2 {
+        font-size: 20px;
+    }
+    .master-text p{
+        width: 280px;
+    }    
+    .masters-description hr {
+        width: 360px;
+    }
+}
+
+@media (max-width: 670px) {
+    .masters-description {
+        margin-top: 28%;
+    }
+    .master-text {
+        margin-left: 10%;
     }    
     .master-text h2 {
         font-size: 18px;
@@ -71,7 +73,7 @@
         font-size: 14px;
     }
     .masters-description hr {
-        width: 120%;
+        width: 550px;
     }
     .master-content {
         display: flex;
