@@ -107,7 +107,10 @@
         margin-left: 50px;
         margin-top: 5%;
         width: 100%;
-    }     
+    }   
+    .conts p{
+        font-size: 12px;
+    }  
     .contacts-container hr{
         width: 250px;
     }   
