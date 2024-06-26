@@ -60,7 +60,7 @@ const Abonements = () => {
   let tx = 0;
 
   const slideForward = () => {
-    if (tx > -130) {
+    if (tx > -350) {
       tx -= 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;

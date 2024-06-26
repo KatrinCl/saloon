@@ -79,3 +79,26 @@
     background: #f6cf74;
     transition: 0.5s;
 }
+
+@media (max-width: 350px) {
+    .order {
+        width: 50%;
+        height: 45%;
+        right: 50px;
+        top: -80px;
+    }
+    .close-button1 {
+        margin-left: 90%;
+        margin-top: -25px;
+    }   
+    .order input {
+        font-size: 12px;
+    }
+    .order h2 {
+        font-size: 14px;
+        margin-left: -7%;
+    }
+    .btn-order{
+        font-size: 12px;
+    }
+}

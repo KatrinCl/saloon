@@ -95,3 +95,20 @@
         font-size: 12px;
     }
 }
+@media (max-width: 350px) {
+    .massage-item {
+        margin-top: 50%;
+        margin-left: 6%;
+    }
+    .massage-item-name {
+        font-size: 14px;
+    }
+    .massage-item-image {
+        max-width: 200px;
+        max-height: 110px;
+        margin-top: 20px;
+    }
+    .massage-item-desc {
+        font-size: 10px;
+    }
+}

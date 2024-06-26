@@ -123,3 +123,42 @@
         margin-top: auto;
     }
 }
+@media (max-width: 350px) {  
+    .contacts{
+        min-height: 140vh;
+    }
+    .contacts-container{
+        margin-top: 50%;
+    }
+    .contacts-container h2{
+        margin-left: -25px;
+        font-size: 14px;
+    }    
+    .conts{
+        gap: 20px;
+        margin-left: 40px;
+        margin-top: 5%;
+        width: 100%;
+    }     
+    .conts h3{
+        font-size: 12px;
+    }
+    .conts h4{
+        font-size: 12px;
+    }
+
+    .contacts-container hr{
+        width: 250px;
+    }   
+    .map-responsive{
+        margin-top: 400px;
+        margin-left: 10%;
+    }
+    .map-responsive iframe{
+        width: 220px;
+        height: 20vh;
+    }
+    .footer-list{
+        margin-top: auto;
+    }
+}

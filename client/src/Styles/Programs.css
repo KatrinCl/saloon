@@ -79,3 +79,27 @@
         margin-top: 37%;
     }
 }
+@media (max-width: 350px) {
+    .programs h1 {
+        margin-top: 65%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .programs hr {
+        margin-top: 71%;
+        width: 80%;
+    }
+    .programs-form {
+        margin-top: 80%;
+        margin-left: 30px;
+    }
+    .programs-form ul li {
+        width: 95%;
+        height: 35px;
+        font-size: 12px;
+    }
+    .programs-form img {
+        width: 18px;
+        margin-left: 81%;
+    }
+}

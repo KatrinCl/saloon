@@ -82,3 +82,29 @@
         width: 100%;
     }
 }
+@media (max-width: 350px) {
+    .masters-description {
+        margin-top: 40%;
+    }
+    .master-text {
+        margin-left: 10%;
+    }    
+    .master-text h2 {
+        font-size: 14px;
+    }
+    .master-text p {
+        font-size: 12px;
+        width: 150px;
+    }
+    .masters-description hr {
+        width: 310px;
+        margin-top: 4%;
+    }
+    .master-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+}
+

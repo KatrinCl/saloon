@@ -92,3 +92,22 @@
         font-size: 12px;
     }
 }
+@media (max-width: 350px) {
+    .about-left {
+        margin-top: 55%;
+    }
+    .about-left h1 {
+        font-size: 14px;
+        width: 200px;
+    }
+    .about-left p {
+        font-size: 12px;
+        width: 150px;
+    }
+    .about-right {
+        margin-top: 40%;
+    }
+    .about-right p {
+        font-size: 10px;
+    }
+}

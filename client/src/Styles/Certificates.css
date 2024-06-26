@@ -94,4 +94,25 @@
     .cert button {
         margin-left: 21%;
     }    }
-
+    @media (max-width: 350px) {
+        .cert{
+            margin-top: 50%;
+        }
+        .cert h1{
+            font-size: 14px;
+            margin-left: 15%;
+        }
+        .cert hr{
+            margin-top: 2%;
+            width: 68%;
+        }
+        .cert p{
+            margin-left: 10%;
+            font-size: 12px;
+        }
+        .cert button {
+            margin-left: 16%;
+            font-size: 12px;
+        }    }
+    
+    

@@ -79,3 +79,26 @@
         width: 100%;
     }
 }
+@media (max-width: 350px) {
+    .massage-description {
+        margin-top: 60%;
+    }
+    .massage-text {
+        margin-left: 12%;
+    }    
+    .massage-text h2 {
+        font-size: 14px;
+    }
+    .massage-text p {
+        font-size: 12px;
+    }
+    .massage-description hr {
+        width: 300px;
+    }
+    .massage-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+}

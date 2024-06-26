@@ -87,7 +87,7 @@
     }
   }
 
-  @media (max-width: 650px) {  
+  @media (max-width: 670px) {  
     .footer-right li{
         font-size: 14px;
         margin: 5px 20px;
@@ -96,3 +96,26 @@
         font-size: 20px;
     }
   }
+
+  @media (max-width: 350px) {  
+    .footer-right li{
+        font-size: 12px;
+        margin: 5px 20px;
+    }
+    .footer-text h1{
+        font-size: 14px;
+    }
+    .footer-img img{
+        width: 60px;
+        height: 70px;
+    }  
+    .notice {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    .footer-copyright{
+        font-size: 12px;
+    }
+      
+  }
+

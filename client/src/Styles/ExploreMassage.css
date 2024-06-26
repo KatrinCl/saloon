@@ -83,3 +83,25 @@
         margin-left: 22%;
     }    
 }
+@media (max-width: 350px) {    
+    .explore-massage-list {
+        gap: 5px;
+        margin-top: 4%;
+        margin-left: 15%;
+        flex-wrap: wrap;
+    }
+    .explore-massage-list-item p {
+        font-size: 12px;
+        width: 80px;
+    }
+    .hr3 {
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .hr4 {
+        width: 80%;
+        margin-top: 40%;
+        margin-left: 2%;
+    }    
+}

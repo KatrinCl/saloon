@@ -90,3 +90,25 @@
         width: 250px;
     }
 }
+@media (max-width: 350px) {
+    .master-item {
+        margin-left: 3%;
+    }
+    .master-item-left {
+        align-items: start;
+        margin-top: 70%;
+    }
+    .master-item-name {
+        font-size: 14px;
+    }
+    .master-item-image {
+        max-width: 100px;
+        max-height: 150px;
+        margin-top: 250px;
+        margin-left: 5%;
+    }
+    .master-item-desc {
+        font-size: 12px;
+        width: 150px;
+    }
+}

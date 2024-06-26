@@ -104,4 +104,30 @@
       min-width: 50%;
     }
   }
-          
+  @media (max-width: 350px) {
+    .abonements-container {
+      padding: 0 40px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 40%;
+    }
+    .abonements-container h2{
+      font-size: 14px;
+    }
+    .next-btn, .back-btn {
+      width: 20px;
+    } 
+    .next-btn {
+      right: 3px;
+      top: 51%;
+    }
+    .back-btn {
+      left: 10px;
+    }
+    .slider li {
+      padding-left: 30px;
+      min-width: 90%;
+    }
+    
+  }
+ 
