@@ -72,12 +72,11 @@
 @media (max-width: 370px) {
   .modal-item-list {
     padding: 15px;
-    width: 50%;
+    width: 80%;
     max-width: 300px;
-    margin-right: 100px;
   }
   .close-button {
-    margin-left: 42%;
+    margin-left: 70%;
     font-size: 12px;
   }
   .modal-content {

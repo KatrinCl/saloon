@@ -110,8 +110,9 @@
         height: 60px;
     }  
     .notice {
-        margin-left: 30px;
+        margin-left: 10px;
         font-size: 12px;
+        width: 100px;
     }
     .footer-copyright{
         font-size: 12px;

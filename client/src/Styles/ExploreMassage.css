@@ -85,7 +85,7 @@
 }
 @media (max-width: 370px) {    
     .explore-massage-list {
-        gap: 5px;
+        gap: 15px;
         margin-top: 4%;
         margin-left: 15%;
         flex-wrap: wrap;
