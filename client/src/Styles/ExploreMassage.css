@@ -83,7 +83,7 @@
         margin-left: 22%;
     }    
 }
-@media (max-width: 350px) {    
+@media (max-width: 370px) {    
     .explore-massage-list {
         gap: 5px;
         margin-top: 4%;

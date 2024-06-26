@@ -82,7 +82,7 @@
         width: 100%;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
     .masters-description {
         margin-top: 40%;
     }

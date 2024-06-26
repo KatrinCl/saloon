@@ -95,9 +95,9 @@
         font-size: 12px;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
     .massage-item {
-        margin-top: 50%;
+        margin-top: 22%;
         margin-left: 6%;
     }
     .massage-item-name {

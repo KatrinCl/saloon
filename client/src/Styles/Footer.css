@@ -97,7 +97,7 @@
     }
   }
 
-  @media (max-width: 350px) {  
+  @media (max-width: 370px) {  
     .footer-right li{
         font-size: 12px;
         margin: 5px 20px;
@@ -107,7 +107,7 @@
     }
     .footer-img img{
         width: 60px;
-        height: 70px;
+        height: 60px;
     }  
     .notice {
         margin-left: 30px;

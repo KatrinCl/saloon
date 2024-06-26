@@ -80,7 +80,7 @@
     transition: 0.5s;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 370px) {
     .order {
         width: 50%;
         height: 45%;

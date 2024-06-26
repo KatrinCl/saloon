@@ -69,7 +69,7 @@
     margin-left: 77%;
   }  
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
   .modal-item-list {
     padding: 15px;
     width: 50%;

@@ -92,7 +92,7 @@
         font-size: 12px;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
     .about-left {
         margin-top: 55%;
     }
