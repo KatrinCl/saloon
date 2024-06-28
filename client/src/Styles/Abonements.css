@@ -1,133 +1,136 @@
-.abonements{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(72, 44, 45, 0.5),rgba(187, 172, 173, 0)),url('/ground.jpg') no-repeat;
-    background-size: cover;
+.abonements {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(72, 44, 45, 0.5),rgba(187, 172, 173, 0)),url('/ground.jpg') no-repeat;
+  background-size: cover;
 }
-  
+
+.abonements-container {
+  position: absolute;
+  margin: 200px auto;
+  padding: 0 120px;
+  width: 100%;
+}
+
+.next-btn, .back-btn {
+  position: absolute;
+  width: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.next-btn {
+  right: 10%;
+  transform: rotate(180deg);
+}
+
+.back-btn {
+  left: 10%;
+  top: 53%;
+}
+
+.abonements-container h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.slider {
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.slider ul {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.slider li {
+  flex: 1;
+  min-width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+@media (max-width: 840px) {
   .abonements-container {
-    position: absolute;
-    max-width: 1200px;
-    width: 100%;
-    margin: 200px auto;
-    padding: 0 120px;
-    margin-left: 7%;
+    padding: 0 70px;
+    margin-left: 3%;
+    margin-top: 20%;
   }
-  
   .next-btn, .back-btn {
-    position: absolute;
-    width: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 2;
+    width: 20px;
   }
-  
   .next-btn {
-    right: 30px;
-    transform: rotate(180deg);
+    right: 10%;
   }
-  
+  .back-btn {
+    left: 10%;
+  }
+  .slider{
+    width: 80%;
+  }
+  .slider li {
+    padding-left: 30px;
+    min-width: 48%;
+  }
+}
+
+@media (max-width: 670px) {
+  .abonements-container {
+    padding: 0 40px;
+    width: 90%;
+    margin-top: 25%;
+  }
+  .next-btn, .back-btn {
+    width: 20px;
+  }
+  .next-btn {
+    right: 5px;
+    top: 51%;
+  }
   .back-btn {
     left: 30px;
-    top: 53%;
-}
-  
-  h2 {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 20px;
   }
-  
   .slider {
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .slider ul {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    width: 100%;
-    margin-left: 2%;
-  }
-  
+    width: 80%;
+    margin-left: 10%;
+  }  
   .slider li {
-    flex: 1;
-    min-width: 24.5%;
-    box-sizing: border-box;
-    padding: 10px;
+    padding-left: 20px;
+    min-width: 50%;
   }
+}
 
-  @media (max-width: 840px) {
-    .abonements-container {
-      padding: 0 70px;
-      width: 80%;
-      margin-left: 10%;
-      margin-top: 20%;
-    }
-    .next-btn, .back-btn {
-      width: 20px;
-    } 
-    .next-btn {
-      right: 15px;
-    }
-    .back-btn {
-      left: 15px;
-    }
-    .slider li {
-      padding-left: 30px;
-      min-width: 48%;
-    }
+@media (max-width: 370px) {
+  .abonements-container {
+    padding: 0 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40%;
   }
-  
-  @media (max-width: 670px) {
-    .abonements-container {
-      padding: 0 40px;
-      width: 80%;
-      margin-top: 25%;
-    }
-    .next-btn, .back-btn {
-      width: 20px;
-    } 
-    .next-btn {
-      right: 1px;
-      top: 51%;
-    }
-    .back-btn {
-      left: 30px;
-    }
-    .slider li {
-      padding-left: 20px;
-      min-width: 50%;
-    }
+  .abonements-container h2 {
+    font-size: 14px;
   }
-  @media (max-width: 370px) {
-    .abonements-container {
-      padding: 0 40px;
-      width: 100%;
-      margin-left: 0px;
-      margin-top: 40%;
-    }
-    .abonements-container h2{
-      font-size: 14px;
-    }
-    .next-btn, .back-btn {
-      width: 20px;
-    } 
-    .next-btn {
-      right: 3px;
-      top: 51%;
-    }
-    .back-btn {
-      left: 10px;
-    }
-    .slider li {
-      padding-left: 30px;
-      min-width: 90%;
-    }
-    
+  .next-btn, .back-btn {
+    width: 20px;
   }
- 
+  .next-btn {
+    right: 15px;
+    top: 51%;
+  }
+  .back-btn {
+    left: 10px;
+  }
+  .slider li {
+    padding-left: 30px;
+    min-width: 90%;
+  }
+}

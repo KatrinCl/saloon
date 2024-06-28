@@ -4,12 +4,15 @@
     background: url(/cert.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
+    display: flex;
 }
 
 .cert{
     position: absolute;
     margin-top: 15%;
     color: #ffffffe5;
+    width: 100%;
+    max-width: 500px;
 }
 
 .cert h1{
@@ -17,23 +20,21 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 70px;
     margin-left: 40%;
 }
 
 .cert hr{
     margin-top: 5%;
-    width: 110%;
+    width: 90%;
     border: 1px solid #ce9309;
+    margin: 10px auto 10px;
 }
 
 .cert p{
-    margin-top: 2%;
     display: flex;
     flex-direction: column;
     width: 60%;
-    text-align: center;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 
 .cert button {
@@ -60,18 +61,19 @@
     }
     .cert h1{
         font-size: 20px;
-        margin-left: 20%;
+        margin-left: 12%;
     }
     .cert hr{
         margin-top: 2%;
         width: 75%;
+        margin-left: 0;
     }
     .cert p{
-        margin-left: 15%;
+        margin-left: 12%;
     }
     .cert button {
         width: 180px;
-        margin-left: 26%;
+        margin-left: 17%;
         margin-top: 8%;
     }    
 }
@@ -82,14 +84,15 @@
     }
     .cert h1{
         font-size: 18px;
-        margin-left: 15%;
+        margin-left: 10%;
+        width: 100%;
     }
     .cert hr{
-        margin-top: 2%;
         width: 68%;
     }
     .cert p{
         margin-left: 10%;
+        font-size: 14px;
     }
     .cert button {
         margin-left: 21%;
@@ -100,19 +103,21 @@
         }
         .cert h1{
             font-size: 14px;
-            margin-left: 15%;
+            margin-left: 10%;
+            width: 250px;
         }
         .cert hr{
             margin-top: 2%;
-            width: 68%;
+            width: 70%;
         }
         .cert p{
             margin-left: 10%;
             font-size: 12px;
         }
         .cert button {
-            margin-left: 16%;
+            margin-left: 10%;
             font-size: 12px;
+            font-weight: 500;
         }    }
     
     

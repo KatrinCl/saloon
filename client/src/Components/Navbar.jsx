@@ -31,12 +31,12 @@ const Navbar = () => {
             <h1>Essence</h1>
             <p>beauty & spa</p>
           </div>
-        <div className="nav-right">
-          <button className='call-p' onClick={toggleOrderCall}>Заказать звонок</button>
-          <button className='call-cont' onClick={toggleOrderCall}><img src='./call.svg' alt=''/></button>
+          <div className="nav-right">
+            <button className='call-p' onClick={toggleOrderCall}>Заказать звонок</button>
+            <button className='call-cont' onClick={toggleOrderCall}><img src='./call.svg' alt='' /></button>
+          </div>
         </div>
-        </div>
-      <hr />
+        <hr />
       </div>
       <div className="nav-bottom">
         <div className="nav-toggle" onClick={toggleMenu}>

@@ -19,6 +19,7 @@
     width: 80%;
     max-width: 500px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
   }
   
   .close-button {
@@ -27,7 +28,7 @@
     width: 10px;
     position: absolute;
     color: #1e1b1b94;
-    margin-left: 33%;
+    right: 34%;
     cursor: pointer;
   }
   
@@ -47,7 +48,7 @@
   }
 
   .modal-script hr {
-    width: 30%;
+    width: 25%;
     border: none;
     background: #c7c7c794;
     height: 1px;
@@ -58,25 +59,38 @@
     margin-bottom: 30px;
   }
 
-  @media (max-width: 830px) {
+  @media (max-width: 840px) {
+    .modal-item-list {
+      width: 70%;
+      max-width: 400px;
+      margin-right: 20%;
+    }
     .close-button {
-      margin-left: 60%;
-    }  
+      right: 40%;
+    } 
+    .modal-script hr {
+      width: 33%;
+    }
 }
 
 @media (max-width: 670px) {
   .close-button {
-    margin-left: 77%;
+    right: 35%;
   }  
+  .modal-script hr {
+    width: 43%;
+  }
 }
 @media (max-width: 370px) {
   .modal-item-list {
     padding: 15px;
-    width: 80%;
-    max-width: 300px;
+    max-width: 400px;
+    width: auto;
+    margin-top: 15%;
+    margin-left: 20%;
   }
   .close-button {
-    margin-left: 70%;
+    right: 25%;
     font-size: 12px;
   }
   .modal-content {
@@ -90,7 +104,7 @@
     font-size: 12px;
   }
   .modal-script hr {
-    width: 40%;
+    width: 47%;
   }
   .duration {
     flex-direction: column;

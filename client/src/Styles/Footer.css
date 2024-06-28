@@ -87,7 +87,7 @@
     }
   }
 
-  @media (max-width: 670px) {  
+  @media (max-width: 670px) { 
     .footer-right li{
         font-size: 14px;
         margin: 5px 20px;
@@ -97,7 +97,7 @@
     }
   }
 
-  @media (max-width: 370px) {  
+  @media (max-width: 370px) { 
     .footer-right li{
         font-size: 12px;
         margin: 5px 20px;
@@ -116,6 +116,8 @@
     }
     .footer-copyright{
         font-size: 12px;
+        flex-wrap: wrap;
+        width: 180px;
     }
       
   }

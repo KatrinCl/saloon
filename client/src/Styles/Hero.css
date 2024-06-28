@@ -86,8 +86,33 @@
         font-size: 14px;
         margin: 15px auto 30px;
     }
+}
+@media (max-width: 370px) {
+    .hero-offer button{
+        font-size: 12px;
+        margin: 0px 15px;
+        margin-top: 10%;
+        font-size: 13px;
+        padding: 10px;
+        max-width: 240px;
+        width: auto;
+    }
+    .hero-content{
+        gap: 5px;
+    }
+    .hero-text {
+        margin-top: 10%;
+    }
+    .hero-text h1 {
+        font-size: 26px;
+    }
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
 
 }
+
 
 
 

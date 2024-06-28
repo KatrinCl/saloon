@@ -14,13 +14,15 @@
 .massage-description {
     position: absolute;
     margin-top: 15%;
+    max-width: 800px;
+    width: 100%;
 }
 
 .massage-text {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-left: 33%;
+    width: 100%;
+    margin-left: 25%;
     text-align: start;
 }
 
@@ -28,17 +30,18 @@
     font-size: 28px;
     color: #ffffffe5;
     font-weight: 550;
-    text-align: start;
 }
 
 .massage-text p {
     color: #ffffffa5;
+    margin: 10px 0;
+    width: 300px;
 }
 
 .massage-description hr {
-    margin-top: 5%;
-    width: 440px;
+    width: 70%;
     border: 1px solid #ce9309;
+    margin: 10px 0;
 }
 
 @media (max-width: 840px) {
@@ -46,13 +49,14 @@
         margin-top: 23%;
     }
     .massage-text {
-        margin-left: 22%;
+        margin-left: 18%;
     }    
     .massage-text h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .massage-description hr {
-        width: 320px;
+        width: 54%;
+        margin: 10px 0;
     }
 }
 
@@ -61,16 +65,17 @@
         margin-top: 20%;
     }
     .massage-text {
-        margin-left: 12%;
+        margin-left: 15%;
     }    
     .massage-text h2 {
         font-size: 18px;
     }
     .massage-text p {
         font-size: 14px;
+        width: 200px;
     }
     .massage-description hr {
-        width: 500px;
+        width: 50%;
     }
     .massage-content {
         display: flex;
@@ -93,7 +98,8 @@
         font-size: 12px;
     }
     .massage-description hr {
-        width: 300px;
+        width: 70%;
+        margin: 0;
     }
     .massage-content {
         display: flex;

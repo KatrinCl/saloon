@@ -16,10 +16,11 @@
 .master-item-left {
     display: flex;
     flex-direction: column;
-    margin-top: 18%;
+    margin-top: 19%;
     gap: 10px;
-    width: 300px;
-    margin-left: 10.5%;
+    max-width: 700px;
+    margin-left: 12%;
+    width: 100%;
 }
 
 .master-item-name {
@@ -29,11 +30,14 @@
     width: 100%;
     text-align: start;
     white-space: nowrap;
+    margin: 10px 0;
 }
 
 .master-item-image {
-    width: 250px;
-    height: 350px;
+    max-width: 250px;
+    width: auto;
+    max-height: 350px;
+    height: auto;
     margin-top: 50%;
     margin-right: 200px;
     padding: 0;
@@ -41,25 +45,26 @@
 
 .master-item-desc {
     color: #fff;
-    width: 100%;
     text-align: start;
+    max-width: 300px;
 }
 
 @media (max-width: 840px) {
     .master-item-left {
-        margin-top: 40.5%;
+        margin-top: 30%;
         width: 100%;
-        align-items: start;
-        margin-left: 8.5%;
+        margin-left: 15%;
     }
     .master-item-name {
         font-size: 20px;
     }
     .master-item-image {
-        width: 220px;
-        height: 300px;
+        max-width: 220px;
+        width: auto;
+        max-height: 300px;
+        height: auto;
         margin-top: 50%;
-        margin-right: 70px;
+        margin-right: 410px;
         padding: 0;
     }
     .master-item-desc {
@@ -69,21 +74,20 @@
 }
 
 @media (max-width: 670px) {
-    .master-item {
-        margin-left: 3%;
-    }
     .master-item-left {
         align-items: start;
-        margin-top: 52%;
+        margin-top: 30%;
     }
     .master-item-name {
         font-size: 18px;
     }
     .master-item-image {
         max-width: 150px;
+        width: auto;
         max-height: 200px;
-        margin-top: 300px;
-        margin-left: 25%;
+        height: auto;
+        margin-top: 280px;
+        margin-left: 15%;
     }
     .master-item-desc {
         font-size: 14px;
@@ -92,19 +96,20 @@
 }
 @media (max-width: 370px) {
     .master-item {
-        margin-left: 3%;
+        margin-left: -4%;
     }
     .master-item-left {
-        align-items: start;
-        margin-top: 70%;
+        margin-top: 58%;
     }
     .master-item-name {
         font-size: 14px;
     }
     .master-item-image {
         max-width: 100px;
+        width: auto;
         max-height: 150px;
-        margin-top: 250px;
+        height: auto;
+        margin-top: 230px;
         margin-left: 5%;
     }
     .master-item-desc {
