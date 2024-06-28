@@ -97,6 +97,7 @@
 @media (max-width: 370px) {
     .master-item {
         margin-left: -4%;
+        margin-top: 2%;
     }
     .master-item-left {
         margin-top: 58%;
@@ -110,10 +111,10 @@
         max-height: 150px;
         height: auto;
         margin-top: 230px;
-        margin-left: 5%;
+        margin-left: 20%;
     }
     .master-item-desc {
-        font-size: 12px;
-        width: 150px;
+        font-size: 10px;
+        width: 100px;
     }
 }
