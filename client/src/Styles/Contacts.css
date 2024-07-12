@@ -1,6 +1,6 @@
 .contacts{
     width: 100%;
-    min-height: 110vh;
+    min-height: 100vh;
     background: linear-gradient(rgba(72, 44, 45, 0.5),rgba(187, 172, 173, 0)),url('/ground.jpg');
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@
 }
 
 .contacts-container{
-    margin-top: 20%;
+    margin-top: 15%;
     color: #ffffffe5;
     flex: 1;
     width: 100%;
@@ -55,8 +55,8 @@
     position: absolute;
     width: auto;
     max-width: 400px;
-    margin-top: 25%;
-    margin-left: 60%;
+    margin-top: 21%;
+    margin-left: 55%;
 }
 
 .map-responsive iframe{

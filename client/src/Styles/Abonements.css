@@ -44,6 +44,7 @@
 }
 
 .slider ul {
+  position: relative;
   display: flex;
   transition: transform 0.5s ease-in-out;
   padding: 0;
@@ -62,7 +63,6 @@
 @media (max-width: 840px) {
   .abonements-container {
     padding: 0 70px;
-    margin-left: 3%;
     margin-top: 20%;
   }
   .next-btn, .back-btn {
