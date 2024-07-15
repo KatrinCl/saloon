@@ -25,6 +25,10 @@
     margin-top: 20px;
 }
 
+.desc-1{
+  width: 160px;
+}
+
 .slide-frequency {
     color: #8b8686e4;
     white-space: nowrap;
@@ -54,11 +58,10 @@
       height: 350px;
     }
     .slide p {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 
-  
   @media (max-width: 670px) {
     .slide{
       height: 320px;

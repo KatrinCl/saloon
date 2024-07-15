@@ -51,49 +51,48 @@
   margin: 0;
   list-style: none;
   width: 100%;
+  overflow-x: visible;
 }
 
 .slider li {
   flex: 1;
-  min-width: 25%;
+  min-width: 33%;
   box-sizing: border-box;
   padding: 10px;
 }
 
 @media (max-width: 840px) {
   .abonements-container {
-    padding: 0 70px;
+    padding: 0 5px;
     margin-top: 20%;
   }
   .next-btn, .back-btn {
     width: 20px;
   }
   .next-btn {
-    right: 10%;
+    right: 5%;
   }
   .back-btn {
-    left: 10%;
+    left: 7%;
   }
   .slider{
     width: 80%;
   }
   .slider li {
     padding-left: 30px;
-    min-width: 48%;
+    min-width: 50%;
   }
 }
 
 @media (max-width: 670px) {
   .abonements-container {
-    padding: 0 40px;
-    width: 90%;
     margin-top: 25%;
   }
   .next-btn, .back-btn {
     width: 20px;
   }
   .next-btn {
-    right: 5px;
+    right: 20px;
     top: 51%;
   }
   .back-btn {

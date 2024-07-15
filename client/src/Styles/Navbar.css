@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     z-index: 10;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .nav-top {
@@ -154,7 +154,7 @@
     .nav-toggle {
         display: block;
         position: absolute;
-        right: 5%;
+        right: 2%;
         top: 50%;
         color: #fff;
         font-size: 24px;
@@ -212,7 +212,7 @@
 
     .navbar hr {
         width: 80%;
-        margin-top: 11%;
+        margin-top: 12%;
     }
 }
 
@@ -230,14 +230,8 @@
         height: auto;
         margin-left: 0;
     }
-
-    .nav-toggle {
-        right: 4%;
-        top: 50%;
-    }
-
     .nav-right {
-        margin-left: 50%;
+        margin-left: 45%;
     }
 
     .call-cont {
@@ -252,7 +246,7 @@
     }
 
     .nav-bottom ul {
-        top: 17%;
+        top: 15.5%;
         height: 490px;
     }
 
@@ -261,8 +255,7 @@
     }
 
     .navbar hr {
-        margin-top: 15%;
-        width: 76%;
+        display: none;
     }
 }
 
@@ -271,36 +264,19 @@
         width: 60px;
         height: auto;
     }
-
-    .nav-right {
-        right: 7%;
-    }
-
     .call-cont {
         width: 35px;
         height: 30px;
     }
-
     .call-cont img {
         width: 15px;
         height: 15px;
     }
-
-    .nav-toggle {
-        right: 1%;
-    }
-
     .nav-bottom ul {
         top: 15%;
         height: 490px;
     }
-
     .nav-bottom ul li {
         font-size: 14px;
-    }
-
-    .navbar hr {
-        width: 70%;
-        margin-top: 23%;
     }
 }

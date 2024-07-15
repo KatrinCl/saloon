@@ -13,7 +13,7 @@ const Slide = ({ slide }) => {
         <div className="slide-desc">
           {slide.details.map((detail, index) => (
             <div className="slide-1" key={index}>
-              <p>{detail.description}</p>
+              <p className='desc-1'>{detail.description}</p>
               <hr />
               <p className='slide-frequency'>{detail.frequency}</p>
             </div>
