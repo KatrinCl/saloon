@@ -272,6 +272,9 @@
         width: 15px;
         height: 15px;
     }
+    .nav-toggle {
+        right: 0;
+    }
     .nav-bottom ul {
         top: 15%;
         height: 490px;
