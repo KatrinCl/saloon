@@ -95,3 +95,14 @@
         width: 80px;
     }
 }
+
+@media (max-width: 374px) {    
+    .explore-massage-list {
+        gap: 10px;
+        margin-left: 10%;
+    }
+    .explore-massage-list-item p {
+        font-size: 10px;
+        width: 85px;
+    }
+}

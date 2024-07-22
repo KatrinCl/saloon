@@ -118,3 +118,21 @@
         width: 100px;
     }
 }
+
+@media (max-width: 374px) { 
+    .master-item {
+        margin-top: 0;
+    }
+    .master-item-image {
+        max-width: 100px;
+        width: auto;
+        max-height: 150px;
+        height: auto;
+        margin-top: 260px;
+        margin-left: 20%;
+    }
+    .master-item-desc {
+        font-size: 10px;
+        width: 100px;
+    }   
+}

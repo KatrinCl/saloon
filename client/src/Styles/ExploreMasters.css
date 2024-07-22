@@ -112,3 +112,9 @@
         margin-left: -4%;
     }    
 }
+
+@media (max-width: 374px) {    
+    .explore-master-list-item p {
+        width: 100px;
+    }
+}
