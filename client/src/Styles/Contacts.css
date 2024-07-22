@@ -172,6 +172,9 @@
 }
 
 @media (max-width: 361px) {  
+    .contacts-container{
+        margin-top: 30%;
+    }
     .map-responsive{
         margin-top: 80%;
     }

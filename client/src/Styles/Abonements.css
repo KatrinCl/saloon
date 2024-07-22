@@ -133,3 +133,10 @@
     margin-left: 5%;
   }
 }
+
+@media (max-width: 361px) {
+  .slider li {
+    min-width: 100%;
+    margin-left: -5%;
+  }
+}
