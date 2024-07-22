@@ -66,18 +66,23 @@
     .slide{
       height: 320px;
     }
-
     .slide p {
       font-size: 12px;
     }
-  }
-  @media (max-width: 370px) {
-    .slide h4{
-      font-size: 10px;
+    .slide-frequency{
+      white-space: wrap;
     }
-
+  }
+  @media (max-width: 440px) {
+    .slide h4{
+      font-size: 12px;
+    }
     .slide p {
-      font-size: 10px;
+      font-size: 12px;
+    }
+    .desc-1{
+      flex-wrap: wrap;
+      width: 150px;
     }
   }
 
