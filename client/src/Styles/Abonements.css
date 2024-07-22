@@ -108,12 +108,12 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 440px) {
   .abonements-container {
     padding: 0 40px;
     width: 100%;
     margin-left: 0px;
-    margin-top: 40%;
+    margin-top: 35%;
   }
   .abonements-container h2 {
     font-size: 14px;

@@ -84,10 +84,10 @@
         display: none;
     }    
 }
-@media (max-width: 370px) {    
+@media (max-width: 440px) {    
     .explore-massage-list {
         gap: 15px;
-        margin-top: 8%;
+        margin-top: 0;
         flex-wrap: wrap;
     }
     .explore-massage-list-item p {

@@ -101,7 +101,7 @@
         font-size: 12px;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     .massage-item {
         margin-top: 22%;
         margin-left: 5%;

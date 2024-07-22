@@ -97,7 +97,7 @@
     .cert button {
         margin-left: 21%;
     }    }
-    @media (max-width: 370px) {
+    @media (max-width: 440px) {
         .cert{
             margin-top: 50%;
         }

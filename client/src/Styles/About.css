@@ -90,9 +90,12 @@
         font-size: 12px;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     .about-left {
-        margin-top: 55%;
+        margin-top: 40%;
+    }
+    .about-left hr {
+        width: 45%;
     }
     .about-left h1 {
         font-size: 14px;
@@ -103,7 +106,7 @@
         width: 150px;
     }
     .about-right {
-        margin-top: 40%;
+        margin-top: 30%;
     }
     .about-right p {
         font-size: 10px;

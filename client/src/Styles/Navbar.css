@@ -259,7 +259,7 @@
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     .nav-left img {
         width: 60px;
         height: auto;

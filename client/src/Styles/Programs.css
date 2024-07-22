@@ -97,18 +97,18 @@
         width: 20px;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     .programs h1 {
-        margin-top: 45%;
+        margin-top: 35%;
         font-size: 18px;
         text-align: center;
     }
     .programs hr {
-        margin-top: 52%;
-        width: 80%;
+        margin-top: 41%;
+        width: 60%;
     }
     .programs-form {
-        margin-top: 60%;
+        margin-top: 50%;
         margin-left: 5%;
         width: 80%;
     }

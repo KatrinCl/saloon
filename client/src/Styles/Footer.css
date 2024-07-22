@@ -97,7 +97,7 @@
     }
   }
 
-  @media (max-width: 370px) { 
+  @media (max-width: 440px) { 
     .footer-right li{
         font-size: 12px;
         margin: 5px 15px;

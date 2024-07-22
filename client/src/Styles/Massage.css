@@ -84,7 +84,7 @@
         width: 100%;
     }
 }
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     .massage-description {
         margin-top: 35%;
     }
