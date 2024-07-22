@@ -137,7 +137,7 @@
 }
 @media (max-width: 440px) {  
     .contacts-container{
-        margin-top: 30%;
+        margin-top: 50%;
     }
     .contacts-container h2{
         margin-left: 10%;
@@ -159,7 +159,7 @@
         width: 50%;
     }   
     .map-responsive{
-        margin-top: 70%;
+        margin-top: 100%;
         margin-left: 10%;
     }
     .map-responsive iframe{
